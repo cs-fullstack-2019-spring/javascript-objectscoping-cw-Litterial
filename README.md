@@ -20,6 +20,12 @@
   console.log(test());
   ```
 
+console.log(obj.prop.getFullname()))returns Aurelio De Rosa because it reads what's in obj, then prop, then full name
+
+var test = Jone Doe because it cannot read any of the names inside obj
+
+console.log test returns undefined. It understands the global function test, but doesn't read anything thing in var object
+
 2. What will you see in the console for the following example?
   ```
   var a = 1; 
@@ -30,7 +36,10 @@
   } 
   b(); 
   console.log(a);    
+  
   ```
+  b returns 10, a is defined in function before function a is called
+  console log returns a
 
 * Create an array called ```peopleList``` objects using *Object Literal* notation. 
 
